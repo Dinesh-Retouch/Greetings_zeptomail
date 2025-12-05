@@ -7,7 +7,7 @@ from app.config import settings
 import httpx
 
 # Correct ZeptoMail API endpoint
-ZEPTO_SEND_EMAIL_URL = "https://api.zeptomail.com/v1/email"
+ZEPTO_SEND_EMAIL_URL = "https://api.zeptomail.com/v1.1/email"
 
 async def send_bulk_greetings(
     employees: List[dict],
