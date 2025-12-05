@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+databases
+alembic
+psycopg2-binary
+requests
+pydantic-settings
+python-multipart
+flask
+httpx
